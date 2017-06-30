@@ -1,0 +1,34 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.Header {
+    background-color:red;
+    height: 8%;
+}
+
+.Content {
+    background-color:aliceblue;
+    height: 100%
+}
+
+.End {
+    background-color: black;
+    height: 10%
+}
+
+#wix {
+    width: 100px;
+    height: 30px;
+}
+
+.locn {
+    width: 33px;
+    height: 33px;
+}
+.chart {
+    width: 25px;
+    height: 25px;
+}
