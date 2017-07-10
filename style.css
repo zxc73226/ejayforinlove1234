@@ -1,5 +1,5 @@
 * {
-    border: solid 1px black; 
+   /* border: solid 1px black;*/
     font-family: "微軟正黑體";
     position: relative; 
 }
@@ -23,12 +23,14 @@ html,body {
     margin-top:9px;
     margin-left: 15px;
     padding-right: 30px;
+    cursor: pointer;
 }
 .headerimg {
     top: 8px;
     width: 30px;
     height: 30px;
-    margin-right: 10px
+    margin-right: 10px;
+    cursor: pointer;
 }
 #header_text1 {
     margin-left: 150px;
@@ -50,7 +52,8 @@ html,body {
     border-radius: 8%;
     color: #fff;
     margin-left: 15px;
-    font-size: 16px;   
+    font-size: 16px;
+    cursor: pointer;
 }
 #header_text3 {
     height: 30px;
@@ -122,13 +125,15 @@ html,body {
     height: 22px;
     margin: 8px 8px;
     left:20px;
+    cursor: pointer;
 }
 .btn_2{
     width: 135px; height: 35px;
     letter-spacing: 0.6px;
     background-color: white;
     border: solid 1px black;
-    left: 48px; 
+    left: 48px;
+    cursor: pointer;
 }
 
 .nav_img {
@@ -136,19 +141,107 @@ html,body {
     background: url("wix_image/iceberg.jpg");
     background-size: cover;
 }
-#img_img {
-    width: 100%; height: 100%;
-    display: flex;
-}
-#textbox {
-    z-index:1
+.textbox{
+    display: inline-flex;
+    align-items:center;
+    flex-direction:column;
+    padding-left: auto;
+    padding-right: auto;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
+#img_text1 {
+    font-size: 72px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-weight:700
+}
+
+#img_text2{
+    color: white;
+    font-size: 24px;
+    letter-spacing: 1px;
+    bottom: 45px;
+}
 
 
 .section {
-    height: 1000px;
+    height: 1873px;
+    width: 100%;
+    background-color: #F7F7F7;
 }
+.bigbox{
+    width: 980px;
+    height: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.BOX {
+    width: 940px;
+    height: 530px;
+    margin: 25px auto;
+    display: flex;
+    justify-content:space-between;
+}
+.box {
+    width: 455px;
+    height: 530px;
+    cursor: pointer;
+}
+.mbox{
+    height: 265px;
+    width: 455px;
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    text-align:center;
+    background-color: white;
+}
+.mbox p {
+    color: rgba(0,0,0,.6);
+    letter-spacing: 0.65px;
+    font-size: 14px;
+}
+
+.box_img1 {
+    background: url("wix_image/mountain.jpg");
+    background-size: cover;
+}
+.box_img2 {
+    background: url("wix_image/Goose.jpg");
+    background-size: cover;
+}
+.box_img3 {
+    background: url("wix_image/bridge.jpg");
+    background-size: cover;
+}
+.box_img4 {
+    background: url("wix_image/horse.jpg");
+    background-size: cover;
+}
+.box_img5 {
+    background: url("wix_image/busy.jpg");
+    background-size: cover;
+}
+.box_img6 {
+    background: url("wix_image/sea.jpg");
+    background-size: cover;
+}
+
+
+
 .footer {
-    height: 80px;
+    height: 90%;
+    display: flex;
+    align-items:center;
+    background-color: black;
+    color:white;
+    padding-left:180px;
+}
+#footer {
+    color:white;
+    text-decoration:none;
 }
